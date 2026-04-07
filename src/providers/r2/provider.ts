@@ -265,7 +265,7 @@ export class R2FileProvider extends AbstractFileProviderService {
 			Bucket: this.config_.privateBucket!,
 			Key: `${fileData.fileKey}`
 		})
-		return await getSignedUrl(this.client_ as any, command as any, {
+		return await getSignedUrl(this.privateClient_ as any, command as any, {
 			expiresIn: this.config_.downloadFileDuration
 		})
 	}
