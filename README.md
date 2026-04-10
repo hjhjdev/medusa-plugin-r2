@@ -23,7 +23,7 @@ The R2 api is based on the S3 api, enabling the official S3 file provider to som
 
 Therefore, using the S3 file provider for R2 meant it did not support the full provider interface. For a very basic Medusa project, this might not be a problem. But for projects needing to use features like private files and presigned urls, it is a problem.
 
-This R2-specific file provider handles the differences by accepting two buckets in it's configuration. One is meant for public access and will automatically be used any time the ACL is set to public. The other bucket is meant for private files and supports presigned url generation.
+This R2-specific file provider handles the differences by accepting two buckets in its configuration. One is meant for public access and will automatically be used any time the ACL is set to public. The other bucket is meant for private files and supports presigned url generation.
 
 ## Installation
 
