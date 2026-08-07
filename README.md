@@ -1,3 +1,7 @@
+# DEPRECATED
+
+The new home for this project repo is https://github.com/pevey/medusa-plugins
+
 # medusa-plugin-r2
 
 File storage provider for Cloudflare R2.
